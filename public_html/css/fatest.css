@@ -307,22 +307,3 @@ h2.ui-btn-icon-left:after {
 div.sc-content {
     margin-left: 48px;
 }
-
-/* Font awesome icons */
-
-.fa:after {
-  display: block;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  padding-top: 2px;
-  text-shadow: none;
-  text-indent: 0;
-  text-align: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.fa.ui-alt-icon {
-    color: black;
-}

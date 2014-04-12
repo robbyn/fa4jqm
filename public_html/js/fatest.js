@@ -412,6 +412,6 @@ var iconNames = [
 
 $(document).on("pagebeforeshow", "#welcome", function() {
     $.each(iconNames, function() {
-        $("#welcome-main").append("<a id='" + this + "' class='ui-btn ui-btn-b fa ui-btn-icon-left ui-alt-icon fa-" + this + "'>" + this + "</a>");
+        $("#welcome-main").append("<a id='" + this + "' class='ui-btn ui-btn-a ui-corner-all fa ui-btn-icon-left fa-" + this + "'>" + this + "</a>");
     });
 });

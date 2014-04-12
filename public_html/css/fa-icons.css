@@ -1,3 +1,30 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot?v=4.0.3');
+  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'),
+      url('fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'),
+      url('fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'),
+      url('fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa:after {
+  display: block;
+  position: absolute;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding-top: 2px;
+  text-shadow: none;
+  text-indent: 0;
+  text-align: center;
+}
+.fa.ui-alt-icon {
+    color: black;
+}
+
 .fa-glass:after {
   content: "\f000";
 }
