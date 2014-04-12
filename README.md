@@ -25,7 +25,7 @@ For instance, instead of using:
 <a href="#page2" class="ui-btn ui-btn-icon-left ui-icon-carat-r">Next</a>
 ```
 
-use instead:
+use:
 
 ```html
 <a href="#page2" class="ui-btn ui-btn-icon-left fa fa-chevron-right">Next</a>
