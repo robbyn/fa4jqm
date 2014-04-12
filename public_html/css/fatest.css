@@ -1,0 +1,328 @@
+@import "fa-icons.css";
+
+.ui-icon-en:after {
+    background-image: url('images/en.svg');
+}
+.ui-icon-fr:after {
+    background-image: url('images/fr.svg');
+}
+
+.ui-nosvg .ui-icon-en:after {
+    background-image: url(images/en.png);
+}
+.ui-nosvg .ui-icon-fr:after {
+    background-image: url(images/fr.png);
+}
+
+.ui-icon-artbook:after {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2016.0.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%2236px%22%20height%3D%2236px%22%20viewBox%3D%220%200%2036%2036%22%20enable-background%3D%22new%200%200%2036%2036%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cg%20id%3D%22_x35_88-photobook.png%22%3E%0D%0A%09%3Cg%3E%0D%0A%09%09%3Cpath%20d%3D%22M21%2C13c0.553%2C0%2C1-0.447%2C1-1s-0.447-1-1-1s-1%2C0.447-1%2C1S20.447%2C13%2C21%2C13z%20M10%2C28h19V6c0-1.104-0.896-2-2-2H9%0D%0A%09%09%09C7.896%2C4%2C7%2C4.896%2C7%2C6v24c0%2C1.104%2C0.896%2C2%2C2%2C2h18c1.104%2C0%2C2-0.896%2C2-2H10c-0.553%2C0-1-0.447-1-1C9%2C28.448%2C9.447%2C28%2C10%2C28z%20M12%2C9h12%0D%0A%09%09%09v9H12V9z%20M19%2C16l-3-3l-3%2C4h10l-2-2L19%2C16z%22/%3E%0D%0A%09%3C/g%3E%0D%0A%3C/g%3E%0D%0A%3C/svg%3E%0D%0A');
+    background-size: 18px, 18px;
+}
+.ui-icon-file:after {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2016.0.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%2236px%22%20height%3D%2236px%22%20viewBox%3D%220%200%2036%2036%22%20enable-background%3D%22new%200%200%2036%2036%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cg%20id%3D%22_x35_21-dropzone.png%22%3E%0D%0A%09%3Cg%3E%0D%0A%09%09%3Cpath%20d%3D%22M13.568%2C17.568l-0.902-0.901L8%2C19v8l9%2C4.5v-9.467L10.5%2C19L13.568%2C17.568z%20M20%2C14V6h-4v8h-4l6%2C6l6-6H20z%20M23.334%2C16.667%0D%0A%09%09%09l-0.902%2C0.901L25.5%2C19L19%2C22.033V31.5l9-4.5v-8L23.334%2C16.667z%22/%3E%0D%0A%09%3C/g%3E%0D%0A%3C/g%3E%0D%0A%3C/svg%3E%0D%0A');
+    background-size: 18px, 18px;
+}
+.ui-icon-print:after {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2016.0.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%2236px%22%20height%3D%2236px%22%20viewBox%3D%220%200%2036%2036%22%20enable-background%3D%22new%200%200%2036%2036%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cg%20id%3D%22_x35_68-photo.png%22%3E%0D%0A%09%3Cg%3E%0D%0A%09%09%3Cpath%20d%3D%22M30%2C7H6C4.896%2C7%2C4%2C7.896%2C4%2C9v18c0%2C1.104%2C0.896%2C2%2C2%2C2h24c1.104%2C0%2C2-0.896%2C2-2V9C32%2C7.896%2C31.104%2C7%2C30%2C7z%20M30%2C27H6V9h24V27z%0D%0A%09%09%09%20M22%2C15c1.104%2C0%2C2-0.896%2C2-2s-0.896-2-2-2s-2%2C0.896-2%2C2S20.896%2C15%2C22%2C15z%20M23%2C18l-3%2C4l-5-6l-7%2C9h20L23%2C18z%22/%3E%0D%0A%09%3C/g%3E%0D%0A%3C/g%3E%0D%0A%3C/svg%3E%0D%0A');
+    background-size: 18px, 18px;
+}
+.ui-icon-photobook:after {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2016.0.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%2236px%22%20height%3D%2236px%22%20viewBox%3D%220%200%2036%2036%22%20enable-background%3D%22new%200%200%2036%2036%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20d%3D%22M27%2C10V4L7%2C10v22h22V10H27z%20M25%2C7v3H13L25%2C7z%20M27%2C30H9V12h18V30z%22/%3E%0D%0A%3Ccircle%20cx%3D%2220%22%20cy%3D%2220%22%20r%3D%221%22/%3E%0D%0A%3Cpolygon%20points%3D%2218%2C24%2015%2C21%2012%2C25%2022%2C25%2020%2C23%20%22/%3E%0D%0A%3C/svg%3E%0D%0A');
+    background-size: 18px, 18px;
+}
+
+.ui-nosvg .ui-icon-artbook:after {
+    background-image: url('images/artbook.png');
+    background-size: 18px, 18px;
+}
+.ui-nosvg .ui-icon-file:after {
+    background-image: url('images/file.png');
+    background-size: 18px, 18px;
+}
+.ui-nosvg .ui-icon-print:after {
+    background-image: url('images/print.png');
+    background-size: 18px, 18px;
+}
+.ui-nosvg .ui-icon-photobook:after {
+    background-image: url('images/photobook.png');
+    background-size: 18px, 18px;
+}
+
+html.no-js .js {
+    display: none;
+}
+
+html.js .no-js {
+    display: none;
+}
+
+/* Login page */
+
+#login-form {
+    max-width: 30em;
+    margin: 0 auto;
+}
+
+/* Welcome page */
+
+#welcome-wrap {
+    position: relative;
+    margin: 0 auto;
+}
+
+#welcome-photo {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#welcome-text {
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 70%;
+    background-color: rgba(0,0,0,0.3);
+    padding: 0.5em 1em;
+}
+
+#welcome-text>h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+#welcome-text>div {
+    margin: 0;
+    padding: 0;
+}
+
+#welcome-wrap>a { /* "Start visit" button */
+    z-index: 1;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: inline-block;
+}
+
+/* Browse page */
+
+div.th-content, div.sc-content {
+    position: relative;
+    text-align: justify;
+    font-size: 0;
+    overflow: hidden;
+    padding: 1px 0 0 0;
+    margin: 0 -4px -1px 0;
+}
+
+div.th-content figure, div.sc-content figure {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #F0F0F0;
+    border-left: 0;
+    border-right: 0;
+    margin: -1px 4px 0 0;
+}
+
+/* Hack to extend the top and bottom borders in the gap between (justified)
+   pictures */
+div.th-content figure:before, div.sc-content figure:before {
+    content: "";
+    top: -1px;
+    bottom: -1px;
+    left: -100px;
+    width: 100px;
+    position: absolute;
+    border: 1px solid #F0F0F0;
+    border-left: 0;
+    border-right: 0;
+    z-index: -1;
+}
+
+#browse-main figcaption, #caddy-main figcaption {
+    display: none;
+    font-size: 75%;
+    text-align: center;
+}
+
+/* Detail page */
+
+#detail-wrap {
+    position: relative;
+    margin: 0 auto;
+}
+
+#detail-photo {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#detail-photo-hdr {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+}
+
+#detail-left {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    left: 0;
+}
+
+#detail-right {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    right: 0;
+}
+
+#detail-btns {
+    display: block;
+    text-align: center;
+}
+
+/* Address form */
+
+.row div {
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.row div label {
+    vertical-align: middle;
+    display: box;
+    width: 100%;
+    text-overflow: ellipsis;
+    margin-top: 0.5em;
+}
+
+option, select {
+    text-align: left;
+}
+
+.soloicon {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    display: inline-block;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.accept-drop {
+    border-left: 8px solid red !important;
+}
+
+/* big buttons */
+
+.lg-bigbutton {
+    display: block;
+    position: relative;
+}
+.lg-bigbutton:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 36px 36px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.3);
+}
+.lg-bigbutton-notext {
+    padding: 0;
+    width: 60px;
+    height: 60px;
+
+    text-indent: -9999px;
+    white-space: nowrap !important;
+}
+.lg-bigbutton-notext:after {
+    left:50%;
+    margin-left: -30px;
+}
+.lg-bigbutton:hover:after {
+    background-color: #22aadd;
+}
+
+/* item count in caddy */
+
+.ui-btn-icon-notext[href="#caddy"] {
+    overflow: visible !important;
+}
+.ui-btn-icon-notext[href="#caddy"] em {
+    position: absolute;
+    display: box;
+    text-indent: 0;
+    white-space: nowrap;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 12px;
+    background-color: red;
+    color: white;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0 4px;
+    z-index: 1;
+}
+
+/* Caddy sections */
+
+h2.ui-btn-icon-left {
+    position: relative;
+    margin-left: 48px;
+    padding: 0.3em 0.3em 0 0;
+}
+h2.ui-btn-icon-left:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 0;
+    margin-left: -48px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 36px 36px;
+    width: 40px;
+    height: 40px;
+    background-color: #F0F0F0;
+    border-radius: 0;
+}
+div.sc-content {
+    margin-left: 48px;
+}
+
+/* Font awesome icons */
+
+.fa:after {
+  display: block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding-top: 2px;
+  text-shadow: none;
+  text-indent: 0;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa.ui-alt-icon {
+    color: black;
+}

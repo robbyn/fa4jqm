@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Awesome test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="css/fonts.css"/>
+        <link rel="stylesheet" href="css/theme-fatest.css" />
+        <link rel="stylesheet" href="css/jquery.mobile.icons.css" />
+        <link rel="stylesheet" href="css/jquery.mobile.structure.css" />
+        <link rel="stylesheet" href="css/fatest.css" />
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.mobile.js"></script>
+        <script src="js/fatest.js"></script>
+    </head>
+    <body>
+        <div id="welcome" data-role="page" class="js" data-theme="a">
+            <header data-role="header" data-position="fixed" data-theme="b">
+                <h1>Awesome test</h1>
+                <a href="#login" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-carat-l ui-nodisc-icon ui-alt-icon ui-btn-left">Previous</a>
+                <div class="ui-btn-right">
+                    <a href="#browse" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-carat-r ui-nodisc-icon ui-alt-icon">Next</a>
+                    <a href="#lang" data-rel="popup" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-${helper.language} ui-nodisc-icon ui-alt-icon">${helper.language}</a>
+                </div>
+            </header>
+            <div id="welcome-main" role="main" class="ui-content">
+            </div>
+        </div>
+    </body>
+</html>
