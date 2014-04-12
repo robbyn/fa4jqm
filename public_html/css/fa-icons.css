@@ -10,12 +10,10 @@
 }
 
 .fa:after {
-  /* display: inline; */
-  position: absolute;
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   vertical-align: -2px;
   padding-top: 2px;
   height: 20px;
