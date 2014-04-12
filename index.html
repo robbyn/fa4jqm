@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Fa4jqm : Integration of Font Awesome with JQuery mobile" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Fa4jqm</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/robbyn/fa4jqm">View on GitHub</a>
+
+          <h1 id="project_title">Fa4jqm</h1>
+          <h2 id="project_tagline">Integration of Font Awesome with JQuery mobile</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/robbyn/fa4jqm/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/robbyn/fa4jqm/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="fa4jqm" class="anchor" href="#fa4jqm"><span class="octicon octicon-link"></span></a>fa4jqm</h1>
+
+<p>This is my attempt at integrating FontAwesome with JQuery mobile 1.4.</p>
+
+<p>To use it in your project, copy fa-icons.css in your css directory, the fontawesome font files in your css/fonts
+directory, Add reference to fa-icons.css either in your html files:</p>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"css/fatest.css"</span> <span class="nt">/&gt;</span>
+</pre></div>
+
+<p>or in another css file:</p>
+
+<div class="highlight highlight-css"><pre><span class="k">@import</span> <span class="s2">"fa-icons.css"</span><span class="p">;</span>
+</pre></div>
+
+<p>To use an awesome icon instead of a standard jquery mobile icon on an element, instead of attributing the class <i>ui-icon-&lt;icon-name&gt;</i> to the element, add both <i>fa</i> and <i>fa-&lt;icon-name&gt;</i> classes to the
+element.</p>
+
+<p>For instance, instead of using:</p>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#page2"</span> <span class="na">class=</span><span class="s">"ui-btn ui-btn-icon-left ui-icon-carat-r"</span><span class="nt">&gt;</span>Next<span class="nt">&lt;/a&gt;</span>
+</pre></div>
+
+<p>use:</p>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#page2"</span> <span class="na">class=</span><span class="s">"ui-btn ui-btn-icon-left fa fa-chevron-right"</span><span class="nt">&gt;</span>Next<span class="nt">&lt;/a&gt;</span>
+</pre></div>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Fa4jqm maintained by <a href="https://github.com/robbyn">robbyn</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
