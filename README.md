@@ -30,3 +30,4 @@ use:
 ```html
 <a href="#page2" class="ui-btn ui-btn-icon-left fa fa-chevron-right">Next</a>
 ```
+
