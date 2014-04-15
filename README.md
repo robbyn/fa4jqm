@@ -7,7 +7,7 @@ To use it in your project, copy fa-icons.css in your css directory, the fontawes
 directory, Add reference to fa-icons.css either in your html files:
 
 ```html
-<link rel="stylesheet" href="css/fatest.css" />
+<link rel="stylesheet" href="css/fa-icons.css" />
 ```
 
 or in another css file:
